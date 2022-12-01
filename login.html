@@ -19,10 +19,10 @@
 <!-- partial: header end -->
 <body style="background-image: url('./img/login.png'); height: 100vh; background-size: cover; background-position: bottom; background-repeat: no-repeat;
  color: white">
-<div class="container">
-    <div class="position-absolute top-50 start-50 translate-middle">
-        <img src="./img/LOGO/vector/default-monochrome-white.svg" alt="Service Lodge Logo" width="250px" >
-        <form>
+<div class="container-md">
+    <div class="position-absolute top-50 start-50 translate-middle d-flex flex-column align-items-center">
+        <img src="./img/LOGO/vector/default-monochrome-white.svg" alt="Service Lodge Logo" width="100%" class="mb-5">
+        <form class="d-flex flex-column">
             <div class="mb-3">
                 <label for="email" class="form-label">Email</label>
                 <input type="email" class="form-control form-rounded" id="email" name="email">
@@ -32,12 +32,10 @@
                 <input type="password" class="form-control form-rounded" id="password" name="password">
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
-            <div class="position-absolute top-100 start-50 translate-middle">
-                <p style="font-size: 0.75em; margin-bottom: 0.5em"><a href="#">Forgot password?</a></p>
-                <p class="instruction" style="font-size: 0.75em;">
-                    <span title="Contact your lodging representative to create an account.">Need an account?</span>
-                    </p>
-            </div>
+            <p style="font-size: 0.75em; margin-bottom: 0.5em; align-self: center"><a class="login" href="#">Forgot password?</a></p>
+            <p class="instruction" style="font-size: 0.75em; align-self: center">
+                <span title="Contact your lodging representative to create an account.">Need an account?</span>
+            </p>
         </form>
     </div>
 </div>
