@@ -27,3 +27,17 @@ form {
 .btn-primary {
     background-color: var(--primary);
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--primary);
+}
+
+.instruction:hover {
+    text-decoration: underline dashed;
+    cursor: pointer;
+}
