@@ -29,8 +29,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="./member_profile.html">Home</a>
-                <a class="nav-link" href="./all.html">Reservations</a>
+                <a class="nav-link" aria-current="page" href="./member_profile.html">Home</a>
+                <a class="nav-link active" href="./all.html">Reservations</a>
                 <a class="nav-link" href="./request.html">Request a Hotel</a>
                 <a class="nav-link" href="./login.html">Logout</a>
             </div>
@@ -41,20 +41,15 @@
 
 <div class="container-md">
     <div class="position-absolute top-50 start-50 translate-middle d-flex flex-column align-items-center">
-        <h1>Welcome, Bobby!</h1>
-    <!--    DYNAMIC VIEW: (active)    -->
-    <div class="calendar-icon booked d-flex justify-content-center align-items-center">
-        <img class="position-absolute" src="./img/icon-calendar.png" alt="Calendar" width="150px">
-        <h2 style="padding-top: 1em; color: white">JAN</h2>
+        <div class="action-success d-flex justify-content-center align-items-center">
+            <img src="./img/icon-check.png" alt="success" width="80%">
+        </div>
+        <h3>Reservation Canceled!</h3>
+        <form action="./member_profile.html">
+            <button class="btn btn-primary" style="width: 100px">OK</button>
+        </form>
     </div>
-    <!--    DYNAMIC VIEW: HOTEL DATA   -->
-    <b><p id="date" class="fs-5">January 2023</p></b>
-    <p id="hotel" class="fs-5">Hilton Garden Inn Wichita</p>
-    <p><a id="link" href="./details.html">View Details</a></p>
 </div>
-</div>
-
-
 </body>
 <!-- partial: footer start -->
 </html>
