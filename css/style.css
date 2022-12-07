@@ -88,3 +88,16 @@ a:hover {
     border-radius: 100%;
     margin: 1em auto 2em auto;
 }
+
+#email, #password, #first_Name, #last_Name, #phone_Number {
+    border: 5px solid rgba(85, 85, 85, 0.56);
+    border-radius: 20px;
+}
+
+#radioAdmin{
+    padding-top: 15px;
+}
+
+#createUser{
+    width: 350px;
+}
