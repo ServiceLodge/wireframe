@@ -1,0 +1,33 @@
+<!-- STYLE ME! :) -->
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Sign up</title>
+</head>
+<body>
+<h1>Create an account</h1>
+<form th:action="@{/create/user}" method="POST" th:object="${user}">
+    <label for="email">Email</label>
+    <input id="email" th:field="*{email}" />
+
+    <label for="password">Password</label>
+    <input id="password" type="password" th:field="*{password}" />
+
+    <label for="first_Name">First Name</label>
+    <input id="first_Name" th:field="*{first_Name}" />
+
+    <label for="last_Name">Last Name</label>
+    <input id="last_Name" th:field="*{last_Name}" />
+
+    <!-- RADIO BTN?  -->
+    <label for="is_admin">Admin?</label>
+    <input id="is_admin" th:field="*{is_admin}" />
+
+    <label for="phone_Number">Phone Number</label>
+    <input id="phone_Number" th:field="*{phone_Number}" />
+
+    <input value="Sign me up!" type="submit" />
+</form>
+</body>
+</html>
