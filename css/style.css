@@ -34,6 +34,19 @@ form {
     border: none;
 }
 
+.btn1 {
+    font-size: 30px;
+    color: #122662;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    border-radius: 5em;
+    width: 100px;
+    max-width: 100%;
+    font-weight: bold;
+    margin: 25px;
+}
+
 .btn-primary {
     background-color: var(--secondary);
 }
@@ -89,6 +102,14 @@ a:hover {
     margin: 1em auto 2em auto;
 }
 
+.action-success {
+    background-color: #ec5969;
+    height: 200px;
+    width:  200px;
+    border-radius: 100%;
+    margin: 1em auto 2em auto;
+}
+
 #email, #password, #first_Name, #last_Name, #phone_Number {
     border: 5px solid rgba(85, 85, 85, 0.56);
     border-radius: 20px;
@@ -100,4 +121,71 @@ a:hover {
 
 #createUser{
     width: 350px;
+}
+
+#failImage{
+    padding-bottom: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+#requestTitle{
+    color: #122662;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0;
+    font-weight: bold;
+}
+
+#requestYear{
+    color: #122662;
+    text-align: center;
+    margin-bottom: 35px;
+    padding: 0;
+    font-weight: bold;
+}
+
+#bookLink{
+    color: #122662;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#resReq{
+    width: 250px;
+    margin: 3em 0 0 0;
+    border-radius: 5em;
+    padding: 0.75em;
+    max-width: 100%;
+    font-weight: bold;
+    border: none;
+    background-color: var(--secondary);
+    color: white;
+}
+
+#resReq:hover{
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+#bookHotel{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 40px 40px 0 40px;
+    color: #122662;
+}
+
+#bookHotel:hover{
+    color: var(--primary);
+}
+
+#btn-group:hover{
+    color: var(--primary);
+}
+
+input:checked + label {
+    background-color: white;
+    border: 8px solid var(--primary);
 }
