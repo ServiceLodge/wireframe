@@ -198,3 +198,20 @@ input:checked + label {
     border-radius: 100%;
     margin: 1em auto 2em auto;
 }
+
+.aboutUsCards{
+    text-align: center;
+    margin: 25px
+}
+
+.nameCard{
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.card-img-top{
+    max-width: 100%;
+    max-height: 100%;
+}
+
